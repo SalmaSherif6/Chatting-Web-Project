@@ -1,0 +1,186 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Comic sans MS;
+    background: no-repeat fixed center;
+}
+
+/*Left Side*/
+.column{
+    float: left;
+    width: 400px;
+    padding-left: 10px;
+    margin: 0;
+    height: 100%; 
+}
+
+.header{
+    background-color: #eeeeee;
+    padding: 0;
+    height: 60px;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.soora{
+    width: 100px;
+    height: 40px;
+    float: left;
+    margin: 0;
+    padding: 5px;
+}
+
+.settings{
+    position: relative;
+    display: inline-block;
+    float: right;
+    padding: 15px;
+}
+
+.dropdown{
+    color: black;
+    background-color: #eeeeee;
+    border: none;
+}
+
+.drop{
+    color: black;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+}
+
+a:link{
+    color: green;
+}
+
+a:visited{
+    color: darkcyan;
+}
+
+a:hover{
+    color: red;
+}
+
+.drop a{
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+
+.drop a:hover{
+    background-color: #dddddd;
+}
+
+.settings:hover .drop{
+    display: block;
+}
+
+.hai{
+    text-align: left;
+    font-family: Comic sans MS;
+    font-size: 28px;
+    width: 300px;
+    height: 70px;
+    border-style: hidden;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+
+/*Right Side of Chat.html*/
+.column2{
+    font-family: Comic sans MS;
+    padding: 20px;
+    float: right;
+    width: 65%;
+    height: 100%;
+    background-image: url(wallpaper.jpg);
+}
+
+.name{
+    font-family: Comic sans MS;
+    font-size: 30px;
+    text-align: center;
+}
+
+.poz{
+    position: absolute;
+    bottom: 15px;
+}
+
+form [type=text]{
+    border-radius: 5px;
+    height: 30px;
+    width: 500px;
+}
+
+.send{
+    width: 50px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.container{
+    border: 2px solid #dedede;
+    background-color: floralwhite;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    background-size: cover;
+}
+
+.container img{
+    float: left;
+    max-width: 60px;
+    max-height: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.time-right{
+    float: right;
+    color: darkcyan;
+}
+
+.container::after{        
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+.container2{
+    border: 2px solid #dedede;
+    background-color: darkseagreen;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    background-size: cover;
+}
+
+.container2 img{
+    float: right;
+    max-width: 60px;
+    max-height: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.time-left{
+    float: left;
+    color: floralwhite;
+}
+
+.container2::after{        
+    content: " ";
+    clear: both;
+    display: table;
+}

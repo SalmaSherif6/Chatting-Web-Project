@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <link rel = "stylesheet" type="text/css" href="Chat.css">
+        
+    </head>
+    <body>
+        <div class="column">
+            <header class="header"> 
+                <div class="soora">
+                    <img src="Hamoudy.jpg" height= "50px" width ="50px" style="border-radius: 50%">
+                </div>
+                <div class="settings">
+                    <button class="dropdown" title="Menu"> <img src="menuWhatsapp.png"> </button>
+                    <div class="drop">
+                        <a href="#">New Group</a>
+                        <a href="#">New Broadcast</a>
+                        <a href="#">WhatsApp Web</a>
+                        <a href="#">Settings</a>
+                    </div>
+                </div>
+                
+                <div class="settings">
+                    <button class="dropdown" title="New Chat"> <img src="new%20chat.png"></button>
+                    <div class="drop">
+                        <a href="#" onclick="alyaa()"> Alyaa </a>
+                        <a href="#" onclick="lama()">Lama</a>
+                        <a href="#" onclick="reem()">Reem</a>
+                        <a href="#" onclick="salmah()">Salma Haroun</a>
+                        <a href="#" onclick="salman()">Salma Naguib</a>
+                        <a href="#" onclick="salmash()"> Salma Sherif </a>
+                        <a href="#" onclick="salmaw()">Salma Walaa</a>
+                        <a href="#" onclick="shrouk()">Shrouk</a>
+                    </div>
+                </div>
+                
+                <div class="settings">
+                    <button class="dropdown" title="My Groups"> <img src="group.png"></button>
+                    <div class="drop">
+                        <a href="#" onclick="acm()"> ACM Team </a>
+                        <a href="#" onclick="friends()"> Friends </a>
+                        <a href="#" onclick="fcis()"> FCIS </a>
+                    </div>
+                </div>
+            </header>
+            <hr>
+            <div>
+                <a href="lama.jpeg"><img src="lama.jpeg" float="left" height= "40px" width= "40px" style="border-radius: 50%"></a> <a href="#" onclick="lama()"><button class="hai" type="button">Lama Modar </button></a> <br>
+                
+                <a href="alyaa.jpeg"><img src="alyaa.jpeg" float="left" height= "40px" width= "40px" style="border-radius: 50%"></a> <a href="#" onclick="alyaa()"><button class="hai" type="button">Alyaa Hussein </button></a> <br>
+                
+                <a href="salmash.jpg"><img src="salmash.jpg" float="left" height= "40px" width= "40px" style="border-radius: 50%"></a><a href="#" onclick="salmash()"><button class="hai" type="button">Salma Sherif </button></a><br>
+                
+                <a href="acm%20team.jpg"><img src="acm%20team.jpg" float="left" height= "40px" width= "40px" style="border-radius: 50%"></a><a onclick="acm()" href="#" ><button class="hai" type="button">ACM Team </button></a><br>
+                
+                <a href="fcis.jpg"><img src="fcis.jpg" float="left" height= "40px" width= "40px" style="border-radius: 50%"></a><a onclick="friends()" href="#" ><button class="hai" type="button">Friends </button></a>
+            </div>
+        </div>
+        
+        
+        <iframe class="column2" id="Chat" width="100%" height="100%" src=""></iframe>
+        
+    </body>
+    
+    <script>
+    function lama(){
+        document.getElementById("Chat").src="Lama.html";
+    }
+        function alyaa(){
+        document.getElementById("Chat").src="Alyaa.html";
+    }
+        function salmash(){
+        document.getElementById("Chat").src="Salma.html";
+    }
+        function acm(){
+        document.getElementById("Chat").src="Acm.html";
+    }
+        function friends(){
+        document.getElementById("Chat").src="Friends.html";
+    }
+        function salmah(){
+        document.getElementById("Chat").src="salmaharoun.html";
+    }
+        function salmaw(){
+        document.getElementById("Chat").src="salmaw.html";
+    }
+        function salman(){
+        document.getElementById("Chat").src="salman.html";
+    }
+        function shrouk(){
+        document.getElementById("Chat").src="shrouk.html";
+    }
+        function reem(){
+        document.getElementById("Chat").src="reem.html";
+    }
+        function fcis(){
+        document.getElementById("Chat").src="fcis.html";
+    }
+    </script>
+</html>
